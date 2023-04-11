@@ -1,1 +1,77 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="versia"><a href="https://codepen.io/DianaPort/pen/ExdjWbd"><p>Обычная версия</p></a></div>
+        <header>
+            <ul>
+                <li><a class="header-block" href="#">HOME</a></li>
+                <li><a class="header-block" href="#">ABOUT</a></li>
+                <li><a class="header-block" href="#">SERVICES</a></li>
+                <li><a class="header-block" href="#">CONTACT</a></li>
+            </ul>
+        </header>
+        <main>
+            <section class="first-section section">
+                <div class="img-back">
+                    <h1 class="img-back-head">Your Web Presence</h1>
+                    <p class="img-back-subhead">Find the Right Service Provider For Your Business.</p>
+                    <button class="read-btn">Read More</button>
+                </div>
+                <div class="right">
+                    <div class="top-aside aside ">
+                        <h4 class="price-head">Membership</h4>
+                        <p class="price">$199/mo</p>
+                        <button class="bow-btn">Bow Now</button>
+                    </div>
+                    <div class="bottom-aside aside">
+                        <h4 class="price-head">Pro Membership</h4>
+                        <p class="price">$299/mo</p>
+                        <button class="bow-btn">Bow Now</button>
+                    </div>
+                </div>
+            </section>
+            <section class="second-section section">
+                <div class="card">
+                    <h4 class="cardhead">Analytics</h4>
+                    <p class="cardtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat placeat fuga sapiente, expedita enim magnam?</p>
+                </div>
+                <div class="card">
+                    <h4 class="cardhead">Marketing</h4>
+                    <p class="cardtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat placeat fuga sapiente, expedita enim magnam?</p>
+                </div>
+                <div class="card">
+                    <h4 class="cardhead">Development</h4>
+                    <p class="cardtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat placeat fuga sapiente, expedita enim magnam?</p>
+                </div>
+                <div class="card">
+                    <h4 class="cardhead">Support</h4>
+                    <p class="cardtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat placeat fuga sapiente, expedita enim magnam?</p>
+                </div>
+            </section>
+            <section class="third-section section">
+                <div class="container">
+                    <div class="third-section-text">
+                        <h2 class="third-section-header">Your Business On The Web</h2>
+                        <p class="third-section-subheader">Find the Right Service Provider For Your Business. Get to work with ready-made service packages from the world’s top digital companies.</p>
+                        <button class="third-section-btn">Learn More</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-text">Dianatech © 2023</div>
+        </footer>
+    </div>
+</body>
+</html>
